@@ -1,0 +1,20 @@
+1. crear entorno virtual con virtualenv
+pip install virtualenv
+2. ejecutar entorno virtual
+virtualenv venv #o cualquier otro nombre
+3. iniciar entorno virtual
+.\venv\Scripts\activate.bat
+
+4. instalar framework flask y modulo de conexion al a base de
+datos mongodb, y flask-cors que es un servidor de conexion
+pip install flask flask-PyMongo flask-cors
+
+Datos para el header en restapi:
+Content-Type
+value:
+application/json
+
+--------------------------------
+Dependencias para el frontend
+yarn add react-router-dom
+bootswatch version parecida a boostrap
